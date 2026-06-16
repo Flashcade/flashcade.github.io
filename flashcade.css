@@ -1,5 +1,96 @@
 body {
-  color: white;
-  background-color: maroon;
-  font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:maroon;
+    color:whitesmoke;
+    text-shadow: 1.5px 1.5px 1px black;
+    background-image:
+        url("/images/checkers.png"),
+        linear-gradient(to bottom, #6e0000, #3d0000);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    -webkit-animation: scrolling 35s linear infinite;
+    -moz-animation: scrolling 35s linear infinite;
+    -o-animation: scrolling 35s linear infinite;
+    animation: scrolling 35s linear infinite;
 }
+
+@-webkit-keyframes scrolling {
+  from{
+      background-position: 0 0;
+  }
+  to{
+      background-position: 105% 0;
+  }
+}
+.banner {
+    background-image: url(/images/stripes.png);
+    padding:5px;
+    max-height:170px;
+    height:170px;
+    max-width:1100px;
+}
+.main {
+    border-radius: 2px;
+    background-color: #150400;
+    max-width:1100px;
+    padding:5px;
+}
+.navigation {
+background-color: #971b1b;
+padding:5px;
+}
+.thumbnail {
+    width: 160px;
+    max-width: 160px;
+    height: 90px;
+    max-height: 90px;
+    border-radius: 4px;
+    border: 3px solid black;
+}
+.big-thumbnail {
+    width: 400px;
+    max-width: 400px;
+    height: 225px;
+    max-height: 225px;
+      border-radius: 4px;
+    border: 3px solid black;
+}
+.game {
+    width: 160px;
+    max-width: 160px;
+    height: 125px;
+    max-height: 125px;
+}
+.biggame {
+    width: 400px;
+    max-width: 400px;
+    height: 312.5px;
+    max-height: 312.5px;
+}
+a,
+a:visited {
+    font-weight:bold;
+    color:lightgrey;
+    text-decoration:none;
+}
+a:hover,
+a:active {
+    font-weight:bold;
+    color:grey;
+    text-decoration:none;
+}
+.thumbrow {
+    max-width:640px;
+    width:640px;
+
+}
+small {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
