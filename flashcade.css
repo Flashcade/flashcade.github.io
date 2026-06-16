@@ -13,7 +13,9 @@ body {
     -o-animation: scrolling 35s linear infinite;
     animation: scrolling 35s linear infinite;
 }
-
+.10px {
+    font-size: 10px
+}
 @-webkit-keyframes scrolling {
   from{
       background-position: 0 0;
