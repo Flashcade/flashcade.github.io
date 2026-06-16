@@ -1,5 +1,4 @@
-# Flashcade
-*The web games of yesteryear today!*
+<img width="921" height="250" alt="logoslogan" src="https://github.com/user-attachments/assets/efdbfd8c-acc5-4679-bc5b-27c3d8342e5a" />
 
 # About Flashcade
 Flashcade is a non-profit fan project by **Swumby** (https://swumby.neocities.org), to make an arcade for everyone's favorite Macromedia and/or Adobe Flash games!
